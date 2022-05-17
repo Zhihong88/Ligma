@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255464802282",
+    "project_id": "ligma-24067",
+    "storage_bucket": "ligma-24067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255464802282:android:4b5037f6d88babe4e45493",
+        "android_client_info": {
+          "package_name": "com.example.ligma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255464802282-r4f82jaq28ftd5llc58bjiog69rit82u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFKcVZvNlIJj2_FhnTuhBPuy26l5OYHFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255464802282-r4f82jaq28ftd5llc58bjiog69rit82u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
