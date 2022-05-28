@@ -24,7 +24,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener{
     private Button signIn1;
 
     private FirebaseAuth mAuth;
-    private ProgressBar progressBar;
+
 
 
 
@@ -40,7 +40,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener{
         editTextEmails = (EditText) findViewById(R.id.email2);
         editTextPasswords = (EditText) findViewById(R.id.password4);
 
-        progressBar = (ProgressBar) findViewById(R.id.progressBar2);
+
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -91,7 +91,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener{
             return;
         }
 
-        progressBar.setVisibility(View.GONE);
+
 
         mAuth.signInWithEmailAndPassword(emails,passwords).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
@@ -102,7 +102,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener{
 
 
                 } else {
-                    Toast.makeText(Signin.this, "Failed to register! Please check your credentials!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Signin.this, "Failed to sign in! Please check your credentials!", Toast.LENGTH_LONG).show();
                 }
             }
         });
